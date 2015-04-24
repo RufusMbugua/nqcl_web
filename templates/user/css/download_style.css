@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.strip2{
+	width:1000px;
+	height:30px;
+	margin:auto;
+}
+
+#Table-Container {
+	width:1000px;
+	height:550px;
+	margin:auto;
+	overflow:auto;
+	margin-top:10px;
+	background-color:#f9f9f9;
+}
+.strip2 table{
+	width:100%;
+	border-collapse:collapse;
+	border:thin solid #999;
+}
+#Table-Container table{
+	width:100%;
+	border-collapse:collapse;
+	border:thin solid #999;
+}
+#TableHeading {
+	width:1000px;
+	margin-top:1px;
+}
+.strip2 table tr th {
+	color:#00a460;
+	font-weight:normal;
+}
+.strip2 table tr td {
+	text-indent:10px;
+}

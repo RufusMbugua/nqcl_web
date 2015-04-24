@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+::-webkit-scrollbar { /* used to remove the srollbars in the -weblit- browsers ::-safari and ::-chrome*/
+    display: none; 
+}
+
+ul {
+	display: table;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+}
+ li {
+	display: block;
+	float:left;
+	line-height:35px;
+}
+li a {
+	color:#d2e7d9;
+	text-decoration:none;
+	padding:0px 17.45px;
+	display: block;
+	text-align: center;
+}
+
+ li a:hover {
+	color:#71b5e4;
+	background-color:#f4f5f6;
+ }
+ li a.active{
+	color:#71b5e4;
+	font-weight:lighter;
+	background-color:#f1f1f1;
+ }
+ 
+ .isread{
+	background:#c8f7ca;
+}
+.staller{
+	width:400px;
+	height:420px;
+	float:left;
+}
+select optgroup{		/*this is to change the select optgroup style*/
+    font-style:normal;
+    font-weight:normal;
+}
+.article_thumb{
+	width: 100px;
+	height: 100px;
+	float: left;;
+	margin-top: 10px;
+	background-color: pink;
+}

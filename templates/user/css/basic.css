@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+::-webkit-scrollbar { /* used to remove the srollbars in the -weblit- browsers ::-safari and ::-chrome*/
+    display: none; 
+}
+
+body{
+	margin:0;
+	background-attachment:fixed;
+	font-family:"Segoe UI";
+	background-color:#f8f8f8;
+}
+.hero{
+	width:100%;
+	height:auto;
+	background-size:cover;
+}
+.main_strip{
+	width:100%;
+	height:90px;
+	z-index:300px;
+	position:fixed;
+	transform-style: preserve-3d;
+	background-color:#00a460;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+.instrip{
+	width:1290px;
+	min-width:1290px;
+	height:90px;
+	margin:auto;
+	color:#fff;
+}
+.main_wrapper{
+	width:1288px;
+	min-width:1288px;
+	margin:auto;
+	height:600px;
+	z-index:250;
+	margin-top:103px;
+	border:thin #dcdddc solid;
+}
+.new_wrapper{
+	width:100%;
+	float:left;
+	border:thin #00a460 solid;
+	height:550px;
+	margin-top:30px;
+}
+.text,.password {
+    padding: 4px;
+    font-size: 13px;
+    color: #444444;
+    background-color:rgba(255, 255, 255, 0.90);
+    border: thin solid #CCC;
+}
+.classA{
+	float:left;
+	height:500px;
+	width:629px;
+	margin-top:15px;
+	z-index:250;
+}
+.classA1{
+	float:left;
+	height:350px;
+	width:400px;
+	margin-top:15px;
+	border:thin #00a460 dotted;
+	z-index:250;
+}
+.classA11{
+	float:left;
+	height:350px;
+	width:850px;
+	margin-top:15px;
+	z-index:250;
+}
+.classA4{
+	float:left;
+	margin-left:10px;
+	height:500px;
+	width:750px;
+	margin-top:15px;
+	z-index:250;
+}
+.classA41{
+	float:left;
+	margin-left:10px;
+	height:490px;
+	width:610px;
+	margin-top:15px;
+	z-index:250;
+}
+.classA111{
+	float:left;
+	height:290px;
+	width:530px;
+	margin-top:7px;
+	z-index:250;
+	margin-left:10px;
+	border:thin #00a460 dotted;
+}
+.classB{
+	float:left;
+	margin-left:15px;
+	height:500px;
+	width:1250px;
+	margin-top:15px;
+}
+.classB1{
+	float:left;
+	margin-left:320px;
+	height:480px;
+	width:660px;
+	margin-top:5px;
+	border:thin #00a460 dotted;
+}
+.classB11{
+	float:left;
+	margin-left:10px;
+	height:580px;
+	width:850px;
+	margin-top:5px;
+	border:thin #00a460 dotted;
+}
+.pass_pic{
+	float:left;
+	height:200px;
+	width:200px;
+	background-color:#d7fced;
+}
+.change_pic{
+	width:520px;
+	height:163px;
+	float:left;
+	margin-left:3px;
+	margin-top:5px;
+	border:thin #00a460 dotted;
+}
+.box1{
+	float:left;
+	height:300px;
+	width:205px;
+	margin-top:5px;
+}
+.box2{
+	float:left;
+	margin-left:7px;
+	margin-top:5px;
+	width:280px;
+	height:300px;
+}

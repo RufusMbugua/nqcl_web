@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	background-attachment:fixed;
+	font-family:"Segoe UI";
+}
+.a{
+	height:50px;
+	width:100%;
+	margin-top:0;
+	background-color:#00a460;
+}
+.a1{
+	height:30px;
+	width:100%;
+	margin-top:0;
+	background-color:#E2F1E7;
+	color:#0CF;
+	text-indent:5px;
+	text-transform:uppercase;
+}
+.inner_a{
+	height:50px;
+	width:1000px;
+	margin:auto;
+}
+.message_container{
+	width:1000px;
+	height:500px;
+	margin:auto;
+	margin-top:30px;
+}
+.msg_body{
+	float:right;
+	width:995px;
+	background-color:#f0f0f0;
+	height:auto;
+	margin-top:10px;
+	text-align:justify;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+}
+
+.close_mgs{
+	width:100px;
+	height:30px;
+	margin-right:10px;
+	float:right;
+	margin-top:12px;
+	text-transform:uppercase;
+	text-align:right;
+	color:white;
+}
+.msg_time{
+	float:left;
+	height:30px;
+	margin-top:12px;
+	width:300px;
+	color:white;
+}
+
+.organogram{
+	width:700px;
+	height:343px;
+	float:left;
+	margin-left:20px;
+	margin-top:30px;
+	background-color:#f2f2f2;
+	
+}
+.organogram:hover{
+	cursor:pointer;
+	background-color:#cbf6cc;
+}
+.after_organogram{
+	margin-top:20px;
+	float: left;
+	margin-left:20px;
+	height:80px;
+	width:700px;
+}
+#fade {
+	display:none; 
+	background: #000; 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	width: 100%; 
+	height: 100%; 
+	opacity: .80; 
+	z-index: 9000;
+}
+.Item_Detail {
+	color:#FFF;
+	display:none;
+	margin-top:-5%;
+	margin-left:calc(50% - 495px);
+	border-radius:5px;
+	z-index:9003;
+	height:520px;
+	width:990px;
+	position:fixed;
+	border-radius:10px;
+}
+.the_real_organogram{
+	margin-top:0px;
+	float:left;
+	margin-left:5px;
+	width:980px; 
+	height:480px;
+	border-radius:5px;
+}
+.head_a{
+	height:25px;
+	padding-top:5px;
+	float:left;
+	margin-top:3px;
+	width:500px;
+	color:white;
+	background-color:#b7bfc5;
+	margin-left:10px;
+	border-bottom-left-radius:5px;
+	text-indent:5px;
+}
+.head_b{
+	height:25px;
+	padding-top:5px;
+	float:left;
+	margin-top:3px;
+	width:400px;
+	color:white;
+	background-color:#b7bfc5;
+	margin-left:60px;
+	border-bottom-left-radius:5px;
+	text-indent:5px;
+}
+.head_body{
+	height:420px;
+	margin-left:10px;
+	float:left;
+	margin-top:10px;
+	width:960px;
+	background-color:#c7ccd0;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.inner_head_body{
+	height:410px;
+	width:950px;
+	margin:5px;
+	text-align:justify;
+	color:black;
+}

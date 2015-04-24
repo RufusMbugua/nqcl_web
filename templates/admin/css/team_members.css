@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.strip21{
+	width:750px;
+	height:30px;
+	margin:auto;
+}
+
+#Table-Container1 {
+	width:750px;
+	height:400px;
+	margin:auto;
+	overflow-y:auto;
+	overflow-x:hidden;
+	margin-top:10px;
+	background-color:#f9f9f9;
+}
+.strip21 table{
+	width:100%;
+	border-collapse:collapse;
+	border:thin solid #999;
+}
+#Table-Container1 table{
+	width:100%;
+	border-collapse:collapse;
+	border:thin solid #999;
+}
+#TableHeading1 {
+	width:750px;
+	margin-top:1px;
+}
+
+.strip21 table tr th {
+	color:#00a460;
+	font-weight:normal;
+}
+.strip21 table tr td {
+	text-indent:10px;
+}
+ a{
+	 text-decoration:none;
+	 color:#00a460;
+ }
+ a:hover{
+	 color:#000;
+ }

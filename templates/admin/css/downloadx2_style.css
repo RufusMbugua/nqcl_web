@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.strip2{
+	width:620px;
+	height:30px;
+	margin:auto;
+}
+
+#Table-Container {
+	width:620px;
+	height:220px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	margin-top:10px;
+	background-color:#f9f9f9;
+}
+.strip2 table{
+	width:100%;
+	border-collapse:collapse;
+	border:thin solid #999;
+}
+#Table-Container table{
+	width:100%;
+	border-collapse:collapse;
+	border:thin solid #999;
+}
+#TableHeading {
+	width:620px;
+	margin-top:1px;
+}
+
+.strip2 table tr th {
+	color:#00a460;
+	font-weight:normal;
+}
+.strip2 table tr td {
+	text-indent:10px;
+}
+ a{
+	 text-decoration:none;
+	 color:#00a460;
+ }
+ a:hover{
+	 color:#000;
+ }
+
+
+
+ .left_div{
+ 	float: left;
+ 	height: 270px;
+ 	width: 625px;
+ 	background-color: #f0f0f0;
+ }
+  .right_div{
+ 	float: right;
+ 	height: 270px;
+ 	width: 625px;
+ 	background-color: #f0f0f0;
+ }
+ .full_div{
+ 	float: left;
+ 	background-color: pink;
+ 	width: 625px;
+ 	height: 150px;
+ 	margin-top: 20px;
+ }
+ .strip_xx{
+ 	width: 100%;
+ 	float: left;
+ 	height: 25px;
+ 	background-color: #f0f0f0;
+ 	color: #0099FF;
+ 	text-transform: uppercase;
+ 	border-bottom: thin dotted #0099FF ;
+ }

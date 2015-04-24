@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sample_head{
+	margin:auto;
+	padding-top:10px;
+	width:1000px;
+	height:80px;
+	border-bottom:thin #ccc solid;
+}
+.contact{
+	margin:auto;
+	width:1000px;
+	height:auto;
+}
+.in_contact{
+	float:left;
+	width:505px;
+	height:280px;
+	margin-top:25px;
+	margin-left:0px;
+	border-bottom: thin solid #ccc;
+}
+.i_contact{
+	margin:auto;
+	margin-top:68px;
+	width:100%;
+	height:auto;
+	padding-bottom:10px;
+}
+.map{
+	float:left;
+	margin-left:0px;
+	width:995px;
+	height:280px;
+	margin-top:25px;
+	background-color:#f7f7f7;
+	border:thin #ccc solid;
+}
+.main_address{
+	width: 100%;
+	height: auto;
+	background-color: #f2f2f2;
+	float: left;;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.address{
+	width:100%;
+	height:auto;
+	margin-top:0px;
+	float:left;
+}
+.in_address{
+	height:auto;
+	width:80%;
+	float:left;
+	margin-left:10px;
+	text-align:justify;
+}
+ #alert{
+	 height:30px;
+	 width:300px;
+	 border-radius:5px;
+	 float:left;
+	 margin-left:20px;
+	 text-align:center;
+	 margin-top:10px;
+	 color:#06F;
+	 background-color:#FF3;
+ }
+ #map_canvas{
+	width:100%;
+	height:100%;
+}

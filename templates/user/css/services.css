@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sevice_pic{
+	margin:auto;
+	height:200px;
+	background-image:url(../slides/slide_.jpg);
+	background-size:cover;
+	width:1000px;
+}
+#main_for_contents{
+	margin:auto;
+	height:auto;
+	width:1000px;
+	margin-top:10px;
+}
+	
+.dir_space{
+	height:auto;
+	width:1000px;
+	float:left;
+	margin-top:10px;
+	background-color:#f3f3f3;
+}
+.in_dirspace{
+	height:auto;
+	width:840px;
+	float:left;
+	margin-left:10px;
+	margin-top:0px;
+	text-align:justify;
+}
+.dir_photo{
+	float:left;
+	height:150px;
+	width:150px;
+	background-color:#CFC;
+}
+.dir_name{
+	background-color:#f2f2f2;
+	font-family:Calibri;
+	float:left;
+	font-size:15px;
+	line-height:14px;
+	text-align:center;
+	width:100%;
+	height:30px;
+	color:#093;
+}
+.dir_big{
+	float:left;
+	height:auto;
+	width:150px;
+}
+
+.drug_assurance{
+	margin-top:10px;
+	text-align:justify;
+	height:auto;
+	float:left;
+	margin-left:45px;
+	width:490px;
+}
+.others{
+	width:100%;
+	float:left;
+	height:auto;
+	text-align:justify;
+	margin-top:20px;
+}
+.topic{
+	width:100%;
+	height:30px;
+	margin-top:0px;
+	float:left;
+	margin-left:0px;
+	text-transform:uppercase;
+	
+}
+.top_motto{
+	color:#00a460;
+	width:500px;
+	height:40px;
+	text-transform:uppercase;
+	font-size:24px;
+	margin-top:30px;
+	margin-left:10px;
+	position:absolute;
+}
+hr { 
+    margin-top: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color:#00a440;
+    border-width: 1px;
+} 
+	

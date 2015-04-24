@@ -1,0 +1,85 @@
+/* CSS Document */
+
+::-webkit-scrollbar { /* used to remove the srollbars in the -weblit- browsers ::-safari and ::-chrome*/
+    display: none; 
+}
+
+body{
+	background-color:#00a460;
+	margin:0;
+	background-attachment:fixed;
+	font-family:"Segoe UI";
+}
+h1{
+	font-size:27px;
+	margin-top:30px;
+	padding-bottom:0px;
+	font:Helvetica;
+	font-weight:normal;
+	color:#FFF;
+}
+.login{
+	height:auto;
+	width:475px;
+	border-radius:5px;
+}
+.wrapper{
+	margin:auto;
+	width:475px;
+	height:450px;
+	margin-top:10%;
+}
+.text,.password {
+    padding: 4px;
+	border-radius:5px;
+    width: 190px;
+    font-size: 13px;
+    color: #444444;
+    background-color:rgba(255, 255, 255, 0.90);
+    border: 1px solid #A59C95;
+    border-left: 1px solid #C8C1BC;
+    border-bottom: 1px solid #C8C1BC;
+}
+.submit{
+    
+	background:rgba(112,192,112,0.9);
+	border:thin solid #53ace4;
+    height: 45px;
+	cursor:pointer;
+	border-radius:5px;
+	color:#FFF;
+	font-size:15px;
+	font-weight:bold;
+}
+.submit:hover {
+	background-color:#99dbbf;
+	color:#000;
+}
+.logobox{
+	width:400px;
+	height:100px;
+	margin-top:0px;
+	float:left;
+	margin-left:37.5px;
+	border-bottom:2px #FFF solid;
+}
+ a{
+	 text-decoration:none;
+	 color:#FFF;
+ }
+ a:hover{
+	 color:#000;
+ }
+ .error{
+	 height:30px;
+	 width:300px;
+	 border-radius:5px;
+	 float:left;
+	 margin-left:87.5px;
+	 text-align:center;
+	 margin-top:10px;
+	 text-decoration:blink;
+	 color:#C00;
+	 background-color:#FF3;
+ }
+ 
